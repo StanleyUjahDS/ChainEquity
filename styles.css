@@ -1,0 +1,68 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+
+
+.Logo {
+  height: 50px;
+  width: 50px;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("properties/three.webp");
+  min-height: 100%;
+}
+
+.w3-bar {
+  padding: 16px;
+background: linear-gradient(to right, #ffff, #2eafff, #9b0de2);}
+
+.gradient-text {
+  background: linear-gradient(to right, #2eafff, #9b0de2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  font-weight:bold;
+}
+
+
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+    will-change: opacity, transform;
+}
+
+.reveal-on-scroll.visible {
+    opacity: 1;
+    transform: none;
+}
+
+
+
+
+.c {
+  font-weight: bolder;
+  font-size: 35px
+}
+
+@media screen and (max-width: 600px) {
+  .gradient-text {
+    font-size: 45px !important;
+    text-align: center;
+    padding: 10px;}
+  .c {
+  font-weight: bolder;
+  font-size: 28px;
+  text-align: center;
+  }
+}
